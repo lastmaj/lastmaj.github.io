@@ -1,25 +1,23 @@
+html, body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
 body {
 	font-family: 'Nunito', sans-serif;
 	background-color: #2b2e3b;
 	text-align: center;
 	color: #74b1be;
+	font-size: 1.3em;
 }
 
 #header {
 	margin: auto;
-	min-height: 80vh;
-	position: relative;
-}
-
-#introduction {
-	position: absolute;
-  	top: 50%; left: 50%;
-  	transform: translate(-50%,-50%);
-  	min-height: 500px;  	
-  	font-size: 45px;
-}
-
-#portfolio {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
 ul {
@@ -30,11 +28,9 @@ ul {
 
 ul.social-media-list i {
     padding: 5px;
-    border-radius: 5px;
     width: 36px;
     height: 36px;
 	color: #74b1be;
-
 }
 
 ul.social-mdeia-list {
@@ -43,7 +39,7 @@ ul.social-mdeia-list {
 
 ul.social-media-list li {
 	display: inline-block;
-	margin: 10px;
+	margin: 0 10px;
 }
 
 ul.social-media-list i {
@@ -52,4 +48,32 @@ ul.social-media-list i {
 
 ul.social-media-list i:hover {
 	color: #9feaf9;
+}
+
+#about p{
+	font-size: .8em;
+	text-align: left;
+}
+
+#about {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+#pic {
+	margin: 0 auto;
+	background-image: url("profile.jpg");
+	height: 220px;
+	width: 220px;
+	background-size: cover;
+	background-position: center center;
+	border-radius: 50%;
+	border: 7px #628586 solid;
+}
+
+#about-text{
+	padding: 0 15px;
+	padding-top: 30px;
+	max-width: 500px;
 }
