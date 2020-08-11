@@ -11,15 +11,6 @@ body {
 	font-size: 1.3em;
 }
 
-#header {
-	margin: auto;
-	min-height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-}
-
 ul {
 	margin-block-start: 0;
 	margin-block-end: 0;
@@ -43,7 +34,7 @@ ul.social-media-list li {
 }
 
 ul.social-media-list i {
-	transition: all 0.3s ease-in;
+	transition: all 170ms ease-out;
 }
 
 ul.social-media-list i:hover {
