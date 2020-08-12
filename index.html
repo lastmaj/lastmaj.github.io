@@ -3,20 +3,15 @@
 
 <head>
     <title>Ahmed Mejbri | Software Engineer</title>
-    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0" />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
-
     <link href="https://fonts.googleapis.com/css2?family=Schoolbell&display=swap" rel="stylesheet">
-
-
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/4b26eef909.js" crossorigin="anonymous"></script>
-
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="style.css">
-
 </head>
 
 <body>
@@ -26,13 +21,12 @@
                 <h1>Hello</h1>
                 <h4>My Name is</h4>
             </div>
-
             <div id="name-tag-middle">
                 <div class="type-container">
-                    <h1>Ahmed Mejbri</h1>
+                    <h1>Ahmed</h1>
+                    <p>(And I'm a Software Engineer)</p>
                 </div>
             </div>
-
             <ul class="social-media-list">
                 <li><a target="_blank" href="https://twitter.com/last_maj">
                         <i class="fab fa-twitter"></i>
@@ -43,29 +37,90 @@
                         <i class="fab fa-linkedin-in"></i>
                     </a></li>
                 <li> <a target="_blank" href="https://linkedin.com">
-                       <i class="far fa-envelope"></i>
+                        <i class="far fa-envelope"></i>
                     </a></li>
             </ul>
         </div>
     </section>
-
     <section id="portfolio">
-        <p>I enjoy building apps for the web</p>
+        <div class="container">
+            <p>Some of my work :</p>
+            <div class="project">
+                <div class="project-pic">
+                    <img src="graphql.jpg">
+                </div>
+                <div class="project-desc">
+                    <h2 class="project-name">
+                        fpl-graphql
+                    </h2>
+                    <a class="github-button" href="https://github.com/lastmaj/fpl-graphql" data-show-count="true" aria-label="Star lastmaj/fpl-graphql on GitHub">Star</a>
+                    <div class="project-text">
+                        <p>
+                            A GraphQL wrapper for the 19-20 Fantasy Premier League API.
+                        </p>
+                    </div>
+                    <ul class="tech-stack">
+                        <li>
+                            GraphQL
+                        </li>
+                        <li>
+                            graphql-yoga
+                        </li>
+                        <li>
+                            JavaScript
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-pic">
+                    <img src="majcamp.jpg">
+                </div>
+                <div class="project-desc">
+                    <h2 class="project-name">
+                        Yelpcamp
+                    </h2>
+                    <a class="github-button" href="https://github.com/lastmaj/fpl-graphql" data-show-count="true" aria-label="Star lastmaj/fpl-graphql on GitHub">Star</a>
+                    <div class="project-text">
+                        <p>
+                            A web application for campers. Designed and built from scratch following the "Modern Web Bootcamp" online course by Colt Steele. 
+                        </p>
+                    </div>
+                    <ul class="tech-stack">
+                        <li>
+                            node.js
+                        </li>
+                        <li>
+                            express
+                        </li>
+                        <li>
+                            ejs
+                        </li>
+                        <li>
+                            MongoDB
+                        </li>
+                        <li>
+                            Mongoose
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </section>
-
     <section id="about">
-    <div class="container">
-        <h1>Hey there!</h1>
-        <div id="pic">
+        <div class="container">
+            <h1>Hey there!</h1>
+            <div id="pic">
+            </div>
+            <div id="about-text">
+                <p>My name is Ahmed and I am a software engineer.
+                    <p>Born and raised in Tunisia, I left home for higher education. I am a fresh graduate from Istanbul University, and I decided to relocate back at home in these troubled times.</p>
+                    <p>I enjoy building and designing web apps. I also developed interest for artifical intelligence and deep learning and I keep learning to grow my skillset.</p>
+                    <p>When I'm AFK, I read and maintain a writing blog on tumblr. I play guitar (still stuck at bar chords), as well as football. I also enjoy travelling.
+                        <p> I am actively looking for remote and/or on-site job opportunities.</p>
+            </div>
         </div>
-        <div id="about-text">
-            <p>My name is Ahmed and I am a software engineer.
-                <p>Born and raised in Tunisia, I left home for higher education. I am a fresh graduate from Istanbul University, and I decided to relocate back at home in these troubled times.</p>
-                <p>I enjoy building and designing web apps. I also developed interest for artifical intelligence and deep learning and I keep learning to grow my skillset.</p>
-                <p>When I'm AFK, I read and maintain a writing blog on tumblr. I play guitar (still stuck at bar chords), as well as football. I also enjoy travelling.
-                <p> I am actively looking for remote and/or on-site job opportunities.</p>
-        </div>
-    </div>
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>
 
 </html>
