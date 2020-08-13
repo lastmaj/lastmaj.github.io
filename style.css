@@ -1,9 +1,9 @@
 :root {
-    --main-bg-color: #F1FAEE;
-    --second-bg-color: #A8DADC;
-    --main-text-color: #1D3557;
-    --second-text-color: #457B9D;
-    --accent-color: #E63946;
+    --white: #F1FAEE;
+    --light-blue: #A8DADC;
+    --dark-blue: #1D3557;
+    --blue: #457B9D;
+    --red: #E63946;
     --light-gray-text: #b1c1c1;
 }
 
@@ -15,9 +15,9 @@ body {
 
 body {
     font-family: 'Nunito', sans-serif;
-    background-color: var(--main-bg-color);
+    background-color: var(--white);
     text-align: center;
-    color: var(--main-text-color);
+    color: var(--dark-blue);
     font-size: 1.3em;
     padding: 0;
     margin: 0;
@@ -33,7 +33,7 @@ h4 {
 #introduction {
     min-height: 100vh;
     display: flex;
-    background-color: var(--second-bg-color);
+    background-color: var(--light-blue);
 }
 
 #header {
@@ -52,8 +52,8 @@ h4 {
 
 #name-tag-upper {
     width: 100%;
-    background-color: var(--accent-color);
-    color: var(--main-bg-color);
+    background-color: var(--red);
+    color: var(--white);
     border-top-right-radius: 7px;
     border-top-left-radius: 7px;
 }
@@ -61,7 +61,7 @@ h4 {
 #name-tag-middle {
     font-family: 'Schoolbell', cursive;
     width: 100%;
-    background-color: var(--main-bg-color);
+    background-color: var(--white);
     height: 100px;
     display: flex;
     align-items: center;
@@ -82,7 +82,7 @@ ul.social-media-list {
     list-style-type: none;
     height: 35px;
     padding-top: 5px;
-    background-color: var(--accent-color);
+    background-color: var(--red);
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
 }
@@ -98,8 +98,8 @@ ul.social-media-list i {
     padding: 5px;
     width: 36px;
     height: 36px;
-    color: var(--second-text-color);
-    color: var(--second-bg-color);
+    color: var(--blue);
+    color: var(--light-blue);
 }
 
 
@@ -145,7 +145,7 @@ ul.social-media-list i:hover {
 .project-desc {
 	width: 290px;
 	transform: translateX(-7.5%);
-	background-color: var(--main-text-color);
+	background-color: var(--dark-blue);
 	border-radius: 5px;
 	padding: 5px 30px 3px 30px;
 	box-shadow: 1px 1px 6px rgba(0,0,0,.29);
@@ -154,8 +154,8 @@ ul.social-media-list i:hover {
 }
 
 .project-name {
-	font-size: 20px;
-	color: var(--main-bg-color)
+	font-size: 28px;
+	color: var(--white)
 }
 
 .project-text {
