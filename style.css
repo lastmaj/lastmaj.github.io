@@ -153,6 +153,27 @@ ul.social-media-list i:hover {
 	text-align: left;
 }
 
+.links {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #1aff7af0;
+}
+
+.links i:first-of-type {
+    margin-right: 6px;
+}
+
+.links:hover{
+    color: #1aff7a96;
+}
+
+.links i:hover {
+    color: #1aff7af0;
+    text-shadow: 0px 0px 10px #1aff7af0, 0px 0px 5px #51ff9bf0;
+}
+
+
 .project-name {
 	font-size: 28px;
 	color: var(--white)
@@ -180,12 +201,6 @@ ul.social-media-list i:hover {
 	display: inline-block;
 }
 
-.project-desc span {
-	position: absolute;
-	top: 10px;
-	right: 10px;
-}
-
 
 @media only screen and (max-width: 767px) {
 	.project-pic {
@@ -207,38 +222,12 @@ ul.social-media-list i:hover {
 	.project-desc {
 		min-width: calc(100% - 60px)
 	}
-
-
 }
 
 .project {
 	margin: 80px 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#about p {
-    font-size: .8em.
-    text-align: left;
-}
 
 #about {
     display: flex;
@@ -247,18 +236,82 @@ ul.social-media-list i:hover {
 }
 
 #pic {
+    width: 100%;
+    border-radius: 50%;
+}
+
+#pic-container {
+    position: relative;
     margin: 0 auto;
-    background-image: url("profile.jpg");
     height: 220px;
     width: 220px;
     background-size: cover;
     background-position: center center;
     border-radius: 50%;
-    border: 7px #628586 solid;
+    transform: translateY(-110px);
+    z-index: 1;
+    border: 4px solid var(--light-gray-text);
+}
+
+#pic-container:before {
+    display: block;
+    position: absolute;
+    width: calc(100% - 8px);
+    height: calc(100% - 8px);
+    border: 4px solid var(--red);
+    margin: 4px;
+    border-radius: 50%;
+}
+
+*:before {
+    box-sizing: border-box;
+}
+
+
+#about .container p{
+    text-align: left;
+    font-size: 18px;
+    margin: 0 0 15px;
+}
+
+#about-me {
+    background-color: var(--white);
+    width: 100vw;
+    padding-bottom: 130px;
+    border-bottom: 2px solid var(--light-gray-text);
+}
+
+#about {
+    background-color: var(--light-blue);
 }
 
 #about-text {
     padding: 0 15px;
     padding-top: 30px;
     max-width: 500px;
+    margin-top: -110px;
 }
+
+#about-text p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    text-align: left;
+    letter-spacing: 0.1px;
+    font-weight: 500;
+}
+
+@media only screen and (min-width: 767px) {
+    #about-text {
+        max-width: 60vw;
+    }
+
+    .project-text {
+    font-size: 13px;
+    margin-bottom: 10px;
+    }
+
+    #about-text p {
+        font-size: 20px; 
+    }
+}
+
