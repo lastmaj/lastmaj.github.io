@@ -1,0 +1,1 @@
+# lastmaj.github.io
