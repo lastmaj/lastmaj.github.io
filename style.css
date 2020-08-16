@@ -98,7 +98,6 @@ ul.social-media-list i {
     padding: 5px;
     width: 36px;
     height: 36px;
-    color: var(--blue);
     color: var(--light-blue);
 }
 
@@ -115,6 +114,10 @@ ul.social-media-list i {
 
 ul.social-media-list i:hover {
     color: white;
+}
+
+#portfolio {
+    margin-top: 30px;
 }
 
 .container {
@@ -160,15 +163,20 @@ ul.social-media-list i:hover {
     color: #1aff7af0;
 }
 
-.links i:first-of-type {
-    margin-right: 6px;
+.links a:first-of-type {
+    margin-right: 10px;
 }
 
 .links:hover{
     color: #1aff7a96;
 }
 
-.links i:hover {
+.links a {
+    color: inherit;
+    transition: all 170ms ease-out;
+}
+
+.links a:hover {
     color: #1aff7af0;
     text-shadow: 0px 0px 10px #1aff7af0, 0px 0px 5px #51ff9bf0;
 }
@@ -282,7 +290,7 @@ ul.social-media-list i:hover {
 }
 
 #about {
-    background-color: var(--light-blue);
+    background-color: #a8dadcb5;
 }
 
 #about-text {
@@ -290,6 +298,7 @@ ul.social-media-list i:hover {
     padding-top: 30px;
     max-width: 500px;
     margin-top: -110px;
+    margin-bottom: 70px;
 }
 
 #about-text p {
@@ -311,7 +320,81 @@ ul.social-media-list i:hover {
     }
 
     #about-text p {
-        font-size: 20px; 
+        font-size: 17px; 
     }
 }
 
+a {
+    text-decoration: none;
+}
+
+p a {
+    color: var(--red);
+    font-weight: 600;
+    transition: all 170ms ease-out;
+}
+
+p a:hover {
+    text-shadow: 0px 0px 5px #ff7680, 0px 0px 25px #ff3947;
+}
+
+#footer {
+    background-color: var(--dark-blue);
+    color: var(--light-blue);
+    padding: 30px 10px 0px;
+}
+
+#footer-social {
+    font-size: 18px;
+}
+
+
+#footer .social-media-list {
+    background-color: transparent;
+    margin-top: 20px;
+}
+
+
+#footer .social-media-list li {
+    margin: 0;
+    padding: 0;
+}
+
+#social-media-list-footer {
+    font-size: 25px;
+    width: 300px;
+    margin: auto;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+    color: #4dcafff0;
+}
+
+#social-media-list-footer a {
+    color: inherit;
+    transition: all 170ms ease-out;
+}
+
+#social-media-list-footer:hover {
+    color: #43699e;
+}
+
+#social-media-list-footer a:hover {
+    color: #4dcafff0;
+    text-shadow: 0px 0px 10px #4dcafff0, 0px 0px 20px #0a00fff0;
+}
+
+#creds{
+    font-size: 13px;
+    display: inline-block;
+    margin: 50px 0px 30px;
+}
+
+#footer p a {
+    color: #4dcafff0;
+    transition: all 170ms ease-out;
+}
+
+#footer p a:hover {
+    text-shadow: 0px 0px 10px #4dcafff0, 0px 0px 20px #0a00fff0;
+}
