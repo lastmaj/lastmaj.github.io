@@ -1,232 +1,276 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-121060363-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<head>
+      gtag("config", "UA-121060363-2");
+    </script>
+
     <title>Ahmed Mejbri | Software Engineer</title>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Portfolio website of Ahmed Mejbri, software engineer based in Tunisia"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Schoolbell&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Schoolbell&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap"
+      rel="stylesheet"
+    />
     <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/4b26eef909.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/4b26eef909.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <section id="introduction">
-        <div id="header">
-            <div id="name-tag-upper">
-                <h1>Hello</h1>
-                <h4>My Name is</h4>
-            </div>
-            <div id="name-tag-middle">
-                <div class="type-container">
-                    <h1>Ahmed</h1>
-                    <p>(And I'm a Software Engineer)</p>
-                </div>
-            </div>
-            <ul class="social-media-list">
-                <li><a target="_blank" href="https://twitter.com/last_maj">
-                        <i class="fab fa-twitter"></i>
-                    </a></li>
-                <li><a target="_blank" href="https://github.com/lastmaj"><i class="fab fa-github"></i>
-                    </a></li>
-                <li> <a target="_blank" href="https://www.linkedin.com/in/ahmed-mejbri-521997111/">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a></li>
-                <li> <a href="mailto:ahmed.mejb@gmail.com">
-                        <i class="far fa-envelope"></i>
-                    </a></li>
-            </ul>
+      <div id="header">
+        <div id="name-tag-upper">
+          <h1>Hello</h1>
+          <h4>My Name is</h4>
         </div>
+        <div id="name-tag-middle">
+          <div class="type-container">
+            <h1>Ahmed</h1>
+            <p>(And I'm a Software Engineer)</p>
+          </div>
+        </div>
+        <ul class="social-media-list">
+          <li>
+            <a target="_blank" href="https://twitter.com/last_maj">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://github.com/lastmaj"
+              ><i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/ahmed-mejbri-521997111/"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:ahmed.mejb@gmail.com">
+              <i class="far fa-envelope"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
     </section>
     <section id="portfolio">
-        <div class="container">
-            <h1>Some of my work :</h1>
-            <div class="project">
-                <div class="project-pic">
-                    <img src="assets\graphql.jpg">
-                </div>
-                <div class="project-desc">
-                    <h2 class="project-name">
-                        fpl-graphql
-                    </h2>
-                    <div class="links">
-                        <a target="_blank" href="https://github.com/lastmaj/fpl-graphql">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a target="_blank" href="https://graphql-fpl.herokuapp.com/">
-                            <i class="fas fa-external-link-alt"></i>
-                        </a>
-                    </div>
-                    <div class="project-text">
-                        <p>
-                            A GraphQL wrapper for the 19-20 Fantasy Premier League API.
-                        </p>
-                    </div>
-                    <ul class="tech-stack">
-                        <li>
-                            GraphQL
-                        </li>
-                        <li>
-                            graphql-yoga
-                        </li>
-                        <li>
-                            JavaScript
-                        </li>
-                    </ul>
-                </div>
+      <div class="container">
+        <h1>Some of my work :</h1>
+        <div class="project">
+          <div class="project-pic">
+            <img src="assets\graphql.jpg" />
+          </div>
+          <div class="project-desc">
+            <h2 class="project-name">fpl-graphql</h2>
+            <div class="links">
+              <a target="_blank" href="https://github.com/lastmaj/fpl-graphql">
+                <i class="fab fa-github"></i>
+              </a>
+              <a target="_blank" href="https://graphql-fpl.herokuapp.com/">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
             </div>
-            <div class="project">
-                <div class="project-pic">
-                    <img src="assets\majcamp.jpg">
-                </div>
-                <div class="project-desc">
-                    <h2 class="project-name">
-                        Yelpcamp
-                    </h2>
-                    <div class="links">
-                        <a target="_blank" href="https://majcamp.herokuapp.com/">
-                            <i class="fas fa-external-link-alt"></i>
-                        </a>
-                    </div>
-                    <div class="project-text">
-                        <p>
-                            A web application for campers. Designed and built from scratch following the "Modern Web Bootcamp" online course by Colt Steele.
-                        </p>
-                    </div>
-                    <ul class="tech-stack">
-                        <li>
-                            node.js
-                        </li>
-                        <li>
-                            express
-                        </li>
-                        <li>
-                            ejs
-                        </li>
-                        <li>
-                            MongoDB
-                        </li>
-                        <li>
-                            Mongoose
-                        </li>
-                    </ul>
-                </div>
+            <div class="project-text">
+              <p>A GraphQL wrapper for the 19-20 Fantasy Premier League API.</p>
             </div>
-            <div class="project">
-                <div class="project-pic">
-                    <img src="assets\highest.jpg">
-                </div>
-                <div class="project-desc">
-                    <h2 class="project-name">
-                        Highest
-                    </h2>
-                    <div class="links">
-                        <a target="_blank" href="https://github.com/lastmaj/highest-server">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a target="_blank" href="https://highest-fpl.herokuapp.com/">
-                            <i class="fas fa-external-link-alt"></i>
-                        </a>
-                    </div>
-                    <div class="project-text">
-                        <p>
-                            A tool developed for a local fantasy football community which automates filtering of an API data to figure out the weekly winner of a mini-league containing >1k users.
-                        </p>
-                    </div>
-                    <ul class="tech-stack">
-                        <li>
-                            react
-                        </li>
-                        <li>
-                            node.js
-                        </li>
-                        <li>
-                            FPL API
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="project">
-                <div class="project-pic">
-                    <img src="assets\live-ranks.jpg">
-                </div>
-                <div class="project-desc">
-                    <h2 class="project-name">
-                        Live ranks
-                    </h2>
-                    <div class="links">
-                        <a target="_blank" href="https://github.com/lastmaj/fpl-live-ranks">
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </div>
-                    <div class="project-text">
-                        <p>
-                            A web application showing live ranks for a given Premier League fantasy mini-league. Users can overcome the problem of having to wait for official updates, which are usually effective on the following day
-                        </p>
-                    </div>
-                    <ul class="tech-stack">
-                        <li>
-                            react
-                        </li>
-                        <li>
-                            Flask
-                        </li>
-                        <li>
-                            FPL API
-                        </li>
-                    </ul>
-                </div>
-            </div>
+            <ul class="tech-stack">
+              <li>GraphQL</li>
+              <li>graphql-yoga</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
         </div>
+        <div class="project">
+          <div class="project-pic">
+            <img src="assets\majcamp.jpg" />
+          </div>
+          <div class="project-desc">
+            <h2 class="project-name">Yelpcamp</h2>
+            <div class="links">
+              <a target="_blank" href="https://majcamp.herokuapp.com/">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+            <div class="project-text">
+              <p>
+                A web application for campers. Designed and built from scratch
+                following the "Modern Web Bootcamp" online course by Colt
+                Steele.
+              </p>
+            </div>
+            <ul class="tech-stack">
+              <li>node.js</li>
+              <li>express</li>
+              <li>ejs</li>
+              <li>MongoDB</li>
+              <li>Mongoose</li>
+            </ul>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-pic">
+            <img src="assets\highest.jpg" />
+          </div>
+          <div class="project-desc">
+            <h2 class="project-name">Highest</h2>
+            <div class="links">
+              <a
+                target="_blank"
+                href="https://github.com/lastmaj/highest-server"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <a target="_blank" href="https://highest-fpl.herokuapp.com/">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+            <div class="project-text">
+              <p>
+                A tool developed for a local fantasy football community which
+                automates filtering of an API data to figure out the weekly
+                winner of a mini-league containing >1k users.
+              </p>
+            </div>
+            <ul class="tech-stack">
+              <li>react</li>
+              <li>node.js</li>
+              <li>FPL API</li>
+            </ul>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-pic">
+            <img src="assets\live-ranks.jpg" />
+          </div>
+          <div class="project-desc">
+            <h2 class="project-name">Live ranks</h2>
+            <div class="links">
+              <a
+                target="_blank"
+                href="https://github.com/lastmaj/fpl-live-ranks"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+            <div class="project-text">
+              <p>
+                A web application showing live ranks for a given Premier League
+                fantasy mini-league. Users can overcome the problem of having to
+                wait for official updates, which are usually effective on the
+                following day
+              </p>
+            </div>
+            <ul class="tech-stack">
+              <li>react</li>
+              <li>Flask</li>
+              <li>FPL API</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
     <section id="about">
-        <div id="about-me">
-            <h1>About me</h1>
-            <div id="test">
-            </div>
-        </div>
-        <div id="pic-container">
-            <img id="pic" src="assets\profile.jpg">
-        </div>
-        <div id="about-text">
-            <p>My name is Ahmed and I am a software engineer.</p>
-            <p>Born and raised in Tunisia, I left home for higher education. After graduating from Istanbul University in 2020, I decided to relocate back at home.
-                <br>I am actively looking for remote and/or on-site job opportunities.</p>
-            <p>I enjoy building and designing web apps. I am also interested in artifical intelligence and deep learning and I keep learning to grow my skillset.</p>
-            <p>When I'm AFK, I read and I maintain <a href="https://thoughtsofmage.tumblr.com/" target="_blank">a writing blog </a> on tumblr. I play guitar (still stuck at bar chords), as well as football. I also enjoy travelling.</p>
-            <p>On a personal note, I believe that growing as a human being is the most noble of pursuits. Therefore I always aim to inspire and be inspired.</p>
-        </div>
+      <div id="about-me">
+        <h1>About me</h1>
+        <div id="test"></div>
+      </div>
+      <div id="pic-container">
+        <img id="pic" src="assets\profile.jpg" />
+      </div>
+      <div id="about-text">
+        <p>My name is Ahmed and I am a software engineer.</p>
+        <p>
+          Born and raised in Tunisia, I left home for higher education. After
+          graduating from Istanbul University in 2020, I decided to relocate
+          back at home. <br />I am actively looking for remote and/or on-site
+          job opportunities.
+        </p>
+        <p>
+          I enjoy building and designing web apps. I am also interested in
+          artifical intelligence and deep learning and I keep learning to grow
+          my skillset.
+        </p>
+        <p>
+          When I'm AFK, I read and I maintain
+          <a href="https://thoughtsofmage.tumblr.com/" target="_blank"
+            >a writing blog
+          </a>
+          on tumblr. I play guitar (still stuck at bar chords), as well as
+          football. I also enjoy travelling.
+        </p>
+        <p>
+          On a personal note, I believe that growing as a human being is the
+          most noble of pursuits. Therefore I always aim to inspire and be
+          inspired.
+        </p>
+      </div>
     </section>
     <section id="footer">
-        <div id="footer-social">
-            <h1>Let's talk!</h1>
-            <p><a href="mailto:ahmed.mejb@gmail.com">ahmed.mejb@gmail.com</a></p>
-            <div id="social-media-list-footer">
-                <a target="_blank" href="https://twitter.com/last_maj">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a target="_blank" href="https://github.com/lastmaj"><i class="fab fa-github"></i>
-                </a>
-                <a target="_blank" href="https://www.linkedin.com/in/ahmed-mejbri-521997111/">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <a target="_blank" href="https://linkedin.com">
-                    <i class="far fa-envelope"></i>
-                </a>
-                <a target="_blank" href="https://thoughtsofmage.tumblr.com">
-                    <i class="fab fa-tumblr"></i>
-                </a>
-            </div>
+      <div id="footer-social">
+        <h1>Let's talk!</h1>
+        <p><a href="mailto:ahmed.mejb@gmail.com">ahmed.mejb@gmail.com</a></p>
+        <div id="social-media-list-footer">
+          <a target="_blank" href="https://twitter.com/last_maj">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a target="_blank" href="https://github.com/lastmaj"
+            ><i class="fab fa-github"></i>
+          </a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/ahmed-mejbri-521997111/"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a target="_blank" href="https://linkedin.com">
+            <i class="far fa-envelope"></i>
+          </a>
+          <a target="_blank" href="https://thoughtsofmage.tumblr.com">
+            <i class="fab fa-tumblr"></i>
+          </a>
         </div>
-        <div id="creds">
-            <p><a href="https://github.com/lastmaj/lastmaj.github.io" target="_blank">Designed and built</a> by Ahmed Mejbri</p>
-            <p>&copy; 2020</p>
-        </div>
+      </div>
+      <div id="creds">
+        <p>
+          <a href="https://github.com/lastmaj/lastmaj.github.io" target="_blank"
+            >Designed and built</a
+          >
+          by Ahmed Mejbri
+        </p>
+        <p>&copy; 2020</p>
+      </div>
     </section>
-</body>
-
+  </body>
 </html>
